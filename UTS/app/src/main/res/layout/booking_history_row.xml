@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/ticket_view"
+    android:background="@drawable/booking_history_border"
+    >
+    <ImageView
+        android:id="@+id/ticket_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        />
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="3dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/booking_history_source_station"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="Source"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:src="@drawable/ic_source_to_destination_arrow"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/booking_history_destination_station"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="Destination"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

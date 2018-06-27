@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="get_stations">https://utswebservice.azurewebsites.net/api/index.php/get/stations/all</string>
+    <string name="login_url">"https://utswebservice.azurewebsites.net/api/index.php/post/login"</string>
+    <string name="get_profile_data">https://utswebservice.azurewebsites.net/api/index.php/post/getuser/</string>
+    <string name="get_qr">https://chart.googleapis.com/chart?cht=qr</string>
+    <string name="share_app">https://utswebservice.azurewebsites.net</string>
+</resources>

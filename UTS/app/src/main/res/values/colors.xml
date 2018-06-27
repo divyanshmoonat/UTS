@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b1c1a</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#dcdcdc</color>
+    <color name="hintColor">#008081</color>
+    <color name="primary_dark_material_light_1">#a09a9a</color>
+    <color name="activity_background">#FFFFFF</color>
+    <color name="focused">#474547</color>
+    <color name="selected">#474547</color>
+</resources>

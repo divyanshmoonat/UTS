@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.siteberry.uts.DashboardActivity"
+    tools:showIn="@layout/app_bar_dashboard"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Source Station"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+        <Spinner
+            android:id="@+id/sourceStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Source Station"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+        <Spinner
+            android:id="@+id/destinationStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="Proceed And review"
+            android:textAlignment="center"
+            android:theme="@style/AppTheme"
+            android:id="@+id/proceed_and_review_button"/>
+    </LinearLayout>
+</LinearLayout>
